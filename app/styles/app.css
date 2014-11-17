@@ -1,6 +1,4 @@
-html, body {
-  margin: 20px;
-}
+* { -webkit-font-smoothing: antialiased; }
 
 .book-review {
   padding-top: 10px;

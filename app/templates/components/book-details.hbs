@@ -9,7 +9,9 @@
 <div class='col-sm-9'>
   <h3>{{#link-to 'book' book}} {{book.title}} {{/link-to}}</h3>
   <p class='text-muted'><em> Written by {{book.author}}</em></p>
-  <span class='label label-primary'>{{book.genre.name}}</span>
+  {{#link-to 'genre' book.genre class='label label-primary'}}
+    {{book.genre.name}}
+  {{/link-to}}
 
   <div class='book-review'>
     <p>{{book.review}}</p>
