@@ -22,10 +22,24 @@ Book.reopenClass({
       author: 'Ernest Cline',
       review: "This was a great book. perfect for anyone",
       rating: 5,
-      amazon_id: 'B004J4WKUQ',
-      url: 'http://www.amazon.com/gp/product/B004J4WKUQ',
-      image: 'http://winningnotwhining.files.wordpress.com/2013/03/readyplayerone-paperback.jpg'
-    }
+      amazon_id: 'B004J4WKUQ'
+    },
+    {
+      id: 2,
+      title: 'The Passage',
+      author: 'Justin Cronin',
+      review: "Great story, well written and the characters are amazing.",
+      rating: 2,
+      amazon_id: '0345528174'
+    },
+    {
+      id: 3,
+      title: 'Dirty Wars: The World Is a Battlefield',
+      author: 'Jeremy Scahill',
+      review: "Very well written and interesting book.",
+      rating: 4,
+      amazon_id: 'B00B3M3TS4'
+    },
   ]
 });
 
