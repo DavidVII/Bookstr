@@ -2,6 +2,10 @@ html, body {
   margin: 20px;
 }
 
+.book-review {
+  padding-top: 10px;
+}
+
 .rating-5 .rating { color:#5cb85c; }
 .rating-4 .rating { color:#5cb85c; }
 .rating-3 .rating { color:#f0ad4e; }
